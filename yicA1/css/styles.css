@@ -1,0 +1,14 @@
+body {
+    background-color: rosybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pikachu {
+    width: 15%;
+    height: 25%;
+}
+
+.intro {
+    padding: 4px 10px 4px 10px;
+    border: 1px solid black;
+}
