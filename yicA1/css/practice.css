@@ -1,11 +1,10 @@
 body {
-    font-style: oblique;
-    font-family: sans-serif;
-    background-color: rgb(143, 160, 235);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rosybrown;
 }
 
 h1 {font-size: 40px;}
-a{color: red;}
+a{color: rgb(15, 72, 110);}
 /*p::first-letter {font-weight: bold;
                 font-size: 20px;
                 }
