@@ -1,17 +1,34 @@
 body {
     background-color: rosybrown;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .images {
-    width: 25%;
+    width: 30%;
     height: 35%;
 }
 
+#description {
+    font-size: smaller;
+}
 
 .box {
-    padding: 4px 10px 4px 10px;
-    border: 1px solid black;
+    background-color: rgb(230, 220, 214);
+    width: 270px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.button {
+    background-color:rgb(230, 220, 214);
+    color: slateblue;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 5px;
+    cursor: pointer;
 }
 
 a:visited {
@@ -19,12 +36,20 @@ a:visited {
 }
 
 a:hover {
-    color: slateblue;
+    font-style: oblique;
+    color:seagreen;
 }
 
 h1 {font-style: oblique;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: circle;
+}
 
 
