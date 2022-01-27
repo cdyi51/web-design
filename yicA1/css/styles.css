@@ -1,22 +1,25 @@
 body {
-    background-color: rosybrown;
+    background-color: black;
+    color: white;
+    text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .images {
-    width: 30%;
+    width: 40%;
     height: 35%;
+    padding: 5px;
+    border: 1px solid white;
 }
 
-#description {
+#banner {
+    width: 40%;
+    height: 35%;
+    
+}
+
+.description {
     font-size: smaller;
-}
-
-.box {
-    background-color: rgb(230, 220, 214);
-    width: 270px;
-    padding: 3px;
-    margin: 3px;
 }
 
 .button {
@@ -35,21 +38,59 @@ a:visited {
     color:rgb(15, 72, 110);
 }
 
+#watchlist {
+    color: black;
+    padding: 15px;
+    background-color: rgb(230, 220, 214);
+    text-align: center;
+}
+
+#watchlist ul {
+    display: inline-block;
+    text-align: left;
+    list-style:circle;
+}
+
 a:hover {
     font-style: oblique;
     color:seagreen;
 }
 
-h1 {font-style: oblique;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
     text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-ul {
+.reviews ul {
     list-style: circle;
+    display: table;
+    text-align: left;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
+.main-nav {
+    background-color: rgb(168, 130, 130);
+    overflow: hidden;
+    padding-left: 28%;
+    padding-right: 20%;
+}
 
+.main-nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 17px;
+}
+
+.main-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
