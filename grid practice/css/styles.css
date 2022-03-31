@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr; 
+}
+
+.box {
+    text-align: center;
+    padding: 10%;
+}
+
+#one {
+    grid-row: 1/2;
+    background-color: red;
+}
+
+#two {
+    grid: 2/3;
+    padding: 300px;
+    background-color: blue;
+}
+
+#three {
+    grid-row: 3/4;
+    background-color: yellow;
+}

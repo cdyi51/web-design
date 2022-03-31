@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: black;
     color: white;
     text-align: center;
@@ -74,10 +75,10 @@ h2 {
 }
 
 .main-nav {
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(168, 130, 130);
-    overflow: hidden;
-    padding-left: 28%;
-    padding-right: 20%;
+    
 }
 
 .main-nav a {
